@@ -1,1 +1,433 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
 
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>國寫 AI｜學測國寫作文批改</title>
+
+  <meta
+    name="description"
+    content="免費 AI 學測國寫作文批改工具，提供評分、問題分析、修改建議與參考範文。"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- =========================
+       導覽列
+  ========================== -->
+  <header class="navbar">
+    <div class="nav-container">
+
+      <a href="index.html" class="logo">
+        <span class="logo-icon">文</span>
+        <span>國寫 AI</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#features">功能</a>
+        <a href="#how-it-works">使用方式</a>
+        <a href="#writing-area">開始批改</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- =========================
+       Hero
+  ========================== -->
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <div class="badge">
+          ✨ AI 國寫作文批改
+        </div>
+
+        <h1>
+          讓 AI 幫你找出
+          <br>
+          <span>國寫作文可以進步的地方</span>
+        </h1>
+
+        <p class="hero-description">
+          貼上你的學測國寫作文，
+          AI 將從內容、結構、語言等面向分析，
+          並提供具體修改建議與參考範文。
+        </p>
+
+        <a href="#writing-area" class="hero-button">
+          開始批改作文
+          <span>→</span>
+        </a>
+
+        <div class="hero-notes">
+          <span>✓ 免費使用</span>
+          <span>✓ AI 分析</span>
+          <span>✓ 提供修改建議</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         功能介紹
+    ========================== -->
+    <section id="features" class="features-section">
+
+      <div class="section-title">
+
+        <span class="section-label">
+          FEATURES
+        </span>
+
+        <h2>
+          不只是給你一個分數
+        </h2>
+
+        <p>
+          我們希望你知道「為什麼」以及「怎麼改」。
+        </p>
+
+      </div>
+
+
+      <div class="feature-grid">
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            📊
+          </div>
+
+          <h3>
+            多面向評分
+          </h3>
+
+          <p>
+            從內容、結構、語言等角度分析文章，
+            讓你了解自己的作文表現。
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            🔍
+          </div>
+
+          <h3>
+            找出具體問題
+          </h3>
+
+          <p>
+            不只告訴你哪裡不好，
+            還會指出句子或段落可能存在的問題。
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            ✏️
+          </div>
+
+          <h3>
+            提供修改方法
+          </h3>
+
+          <p>
+            AI 會提供修改方向，
+            幫助你知道下一次可以怎麼寫。
+          </p>
+
+        </article>
+
+
+        <article class="feature-card">
+
+          <div class="feature-icon">
+            📖
+          </div>
+
+          <h3>
+            參考範文
+          </h3>
+
+          <p>
+            根據題目與文章方向產生參考範例，
+            幫助你理解更完整的寫作方式。
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         使用方式
+    ========================== -->
+    <section id="how-it-works" class="how-section">
+
+      <div class="section-title">
+
+        <span class="section-label">
+          HOW IT WORKS
+        </span>
+
+        <h2>
+          三個步驟開始
+        </h2>
+
+      </div>
+
+
+      <div class="steps">
+
+        <div class="step">
+
+          <div class="step-number">
+            01
+          </div>
+
+          <div>
+            <h3>貼上作文</h3>
+            <p>
+              將你的國寫作文貼到輸入框。
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="step">
+
+          <div class="step-number">
+            02
+          </div>
+
+          <div>
+            <h3>AI 分析</h3>
+            <p>
+              AI 從多個面向分析文章內容。
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="step">
+
+          <div class="step-number">
+            03
+          </div>
+
+          <div>
+            <h3>查看建議</h3>
+            <p>
+              查看評分、問題、修改方式與參考範文。
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         作文輸入區
+    ========================== -->
+    <section id="writing-area" class="writing-section">
+
+      <div class="writing-container">
+
+        <div class="writing-header">
+
+          <span class="section-label">
+            START WRITING
+          </span>
+
+          <h2>
+            開始你的第一次批改
+          </h2>
+
+          <p>
+            先輸入題目與作文內容。
+          </p>
+
+        </div>
+
+
+        <form id="essayForm" class="essay-form">
+
+          <!-- 題目 -->
+          <div class="form-group">
+
+            <label for="essayTitle">
+              國寫題目
+            </label>
+
+            <input
+              type="text"
+              id="essayTitle"
+              name="essayTitle"
+              placeholder="例如：請根據提示文字寫一篇文章……"
+            >
+
+          </div>
+
+
+          <!-- 作文 -->
+          <div class="form-group">
+
+            <div class="label-row">
+
+              <label for="essayText">
+                作文內容
+              </label>
+
+              <span id="wordCount">
+                0 字
+              </span>
+
+            </div>
+
+
+            <textarea
+              id="essayText"
+              name="essayText"
+              rows="18"
+              placeholder="請把你的國寫作文貼在這裡……
+
+建議包含完整的文章內容，讓 AI 可以進行比較完整的分析。"
+              required
+            ></textarea>
+
+          </div>
+
+
+          <!-- PDF -->
+          <div class="upload-area">
+
+            <div class="upload-icon">
+              📄
+            </div>
+
+            <div class="upload-text">
+
+              <strong>
+                PDF 上傳功能
+              </strong>
+
+              <span>
+                第一版先使用文字輸入，PDF 功能之後加入。
+              </span>
+
+            </div>
+
+            <button
+              type="button"
+              class="upload-button"
+              disabled
+            >
+              即將推出
+            </button>
+
+          </div>
+
+
+          <!-- 提交 -->
+          <button
+            type="submit"
+            id="submitButton"
+            class="submit-button"
+          >
+
+            <span id="submitText">
+              開始 AI 批改
+            </span>
+
+            <span id="loadingText" class="loading-text">
+              AI 分析中……
+            </span>
+
+            <span class="button-arrow">
+              →
+            </span>
+
+          </button>
+
+
+          <p class="privacy-note">
+            🔒 目前為開發測試版本，請不要輸入姓名、電話、地址等個人資料。
+          </p>
+
+        </form>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =========================
+       Footer
+  ========================== -->
+  <footer class="footer">
+
+    <div class="footer-container">
+
+      <div>
+        <strong>
+          國寫 AI
+        </strong>
+
+        <p>
+          學測國寫作文練習與 AI 回饋工具
+        </p>
+      </div>
+
+
+      <div class="footer-right">
+
+        <span>
+          免費學習工具
+        </span>
+
+        <span>
+          © 2026 國寫 AI
+        </span>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+
+</body>
+</html>
